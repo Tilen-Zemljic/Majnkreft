@@ -92,7 +92,7 @@ nav a{
     text-decoration: none;
 }
 
-nav ul {
+nav ol {
   list-style: none;
   padding: 0;
   display: flex;
