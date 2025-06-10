@@ -1,0 +1,67 @@
+<!DOCTYPE html>       <!--č š ž-->
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerija</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+    <h1 id="naslov">MINECRAFT</h1>
+</div>
+</header>
+<br>
+<nav>
+    <ol>
+        <li><a href="index.html">Domov</a></li>
+        <li><a href="gallery.html">Galerija</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+    </ol>
+</nav>
+<h1>Pošasti, ki jih lahko najdemo v minecraftu.</h1>
+    <section class="gallery">
+      <img src="hostile.png" alt="Nevarni subjekti" onclick="showImage(this)">
+      <img src="passive.png" alt="pasivni subjekti" onclick="showImage(this)">
+      <img src="neutral.png" alt="neutralni subjekti" onclick="showImage(this)">
+    </section>
+
+  <br>
+  <br>
+    <section id="preview" class="preview hidden">
+      <img id="previewImg" src="white.jpg" alt="Predogled" />
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <footer>
+    <div id="footerdiv">
+    <div id="divfooter">
+        <img id="slikafooter" src="Slika1.webp">
+    </div>
+    <div>
+        <button class="gumb" onclick="prikaziSporocilo()">Rdeči gumb</button>
+        <button onclick="spremeniBarvo()">Smešen gumb</button>
+    </div>
+    <div class="divfooter1">
+    <p>
+    <address class="footerbesedilo">
+        Mojang studios<br>
+        supportmail@hotmail.com<br>
+        neki na švedskem 27<br>
+        +46 123 456 789<br>
+        Notch Minecraft
+    </address></p>
+    </div>
+    </div>
+</footer>
+</body>
+</html>
