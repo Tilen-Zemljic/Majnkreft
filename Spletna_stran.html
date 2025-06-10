@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="Script.js"></script>
+    <header>
+    <div>
+    <h1 id="naslov">MINECRAFT</h1>
+</div>
+</header>
+<br>
+<nav>
+    <ol >
+        <li><a href="https://minecraft.wiki/w/Dimension" target="_blank">Dimenzije</a></li>
+        <li><a href="https://minecraft.wiki/w/Block" target="_blank">Kocke</a></li>
+        <li><a href="https://minecraft.wiki/w/Mob#Hostile_mobs" target="_blank">Pošasti</a></li>
+        <li><a href="https://minecraft.wiki/w/Mob#Passive_mobs" target="_blank">Živali</a></li>
+    <ol>
+</nav>
+<br>
+<main>
+    <p class="uvod">Minecraft je priljubljena igra za ustvarjanje in preživetje v kockastem svetu.</p>
+    <h2>Zakaj je Minecraft super?</h2>
+        <ul class="besedilo ">
+            <li>Gradnja z neomejenimi možnostmi</li>
+            <li>Preživetje v divjini</li>
+            <li>Rudarjenje in raziskovanje</li>
+            <li>Možnost igranja s prijatelji</li>
+        </ul>
+
+        <h2>Posebnosti</h3>
+        <ul class="besedilo">
+            <li>Najbolj prodajana igra na svetu (350milijonov kopij)</li>
+            <li>Ikonične skladbe</li>
+            <li>Svet, ki se razsteza do 30 miljonov kock od začetne točke (kubičnih metrov)</li>
+        </ul>
+        <br>
+        <img src="slika.webp">
+        <form onsubmit="return preveriObrazec()" style="margin-top: 20px;">
+            <label for="ime">Uporabniško ime:</label>
+            <input type="text" id="ime" name="ime" placeholder="Vaše uporabniško ime" required>
+        
+            <label for="e-poštni naslov">E-pošta:</label>
+            <input type="email" id="email" name="email" placeholder="Vaš e-poštni naslov" required>
+        
+            <label for="komentar">Mnenje o igri/Komentar</label>
+            <textarea id="komentar" name="komentar" rows="5" placeholder="Vaš komentar" required></textarea>
+        
+            <button type="submit">Pošlji</button>
+          </form>
+          <button onclick="prikaziSporocilo()">Prikaži sporočilo</button>
+            <button onclick="spremeniBarvo()">Spremeni ozadje</button>
+    </main>
+    
+    <p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </p>
+<footer>
+    <div id="divfooter">
+        <img id="slikafooter" src="Slika1.webp">
+    </div>
+    <div class="divfooter1">
+    <p>
+    <address class="footerbesedilo">
+        Mojang studios<br>
+        supportmail@hotmail.com<br>
+        neki na švedskem 27<br>
+        +46 123 456 789<br>
+        Notch Minecraft
+    </address></p>
+    </div>
+</footer>
+</html>
