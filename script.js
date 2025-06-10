@@ -26,3 +26,7 @@ function prikaziSporocilo() {
     previewImg.src = imgElement.src;
     previewSection.classList.remove('hidden');
   }
+
+    function boom(){
+    window.location.href='boom.html'
+  }
