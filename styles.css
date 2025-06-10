@@ -92,11 +92,12 @@ nav a{
     text-decoration: none;
 }
 
-nav ol{
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    list-style: none
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav li{
