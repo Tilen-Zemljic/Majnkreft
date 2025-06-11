@@ -30,6 +30,9 @@ main{
     margin: 0 auto;
 }
 
+main img {
+  width: 80%;
+{
 ul{
     list-style-type: none;
     border: 2px dashed black;
